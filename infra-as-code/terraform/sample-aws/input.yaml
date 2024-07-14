@@ -18,7 +18,7 @@ db_name: "astoudb"
 db_username: "astou" 
 
 # Replace with Domain name you want for your web applications
-domain_name: "digit-cms.digit.org"
+domain_name: "digit.obsindustrie-si.sn"
 
 # Replace with the name you want to give to your S3 bucket which is used to store the terraform states
 terraform_state_bucket_name: "astou-digit-buckets"
