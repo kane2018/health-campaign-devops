@@ -1,26 +1,26 @@
 # Replace with the name which you want to give to your EKS cluster
 # Cluster name can have only lowercase alphanumeric characters and hyphens
 # For example: "digit-demo"
-cluster_name: "demo-health"
+cluster_name: "astou-health"
 
 # Replace with ssh key name you want
-ssh_key_name: "health-ssh-key" 
+ssh_key_name: "astou-ssh-key" 
 
 # Replace with public key which you want to add in your EC2 machines # ssh key which you want to add in your EC2 machines
-public_ssh_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCQqsG1qCPzOLwjoqLmE0f50caH2bp6KndQ8DXTQzvj09vkSG5Wy6rSLMcq94um2BzeRhbq1aADpEXIb2BOY+mfpxsU0UFU4QWufPmGkGpQoM+ov67XnezQL5/DA0mqPrWOs39RAofOUhEtn4tbKlb8t+S023cI7ulX901p23+61r7dJQ557uFyHEJmgXX4CPy+Br+XAzRU7r8YmJ8h43Z5y+r4P3HD04XLQ9O6+FjYljabPKdj3VCdtbtz6xqPcUTRvSKX5iHzOQbqj7iSJ/RqysUSsYE1LCYD/7xfNHxnNU9qYuP3gPkWXsgBFE/PWlAuWCL6yvdjSRZLACVn5T77"
+public_ssh_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCq4y6J9oEHlNvfXUvicki90blmcSJkyKUin0CflP3mZ+7oCuihfDYpbr5LrJvW7w7IoxSXfExhQ+ujS8jLaJ776e++25sxIFvmGsDbCWMUXgJE3PolPwG/wr0lEsafgWL6aG8j2wfI3FZFIKrMN8IMpCOduYsNSO+V8TJHNh7UWWtEEYngrn6NwkuT511Ai/DK684XfSdHYNt90SIxHNWoNmyQW0RbWfB7fODze/IHFrZk8eTVwqx6UwCghCl1Ja73aSxG5MyN2glSx9X/ZHoFZKdlHrLh+a6y/NcUWUIBqDOhIj5slP9M9ZZIQ96exu161cedkuSn2tNZRvbxAN/PKY/8RckM9dtKRviuBgJDkmki+5sG3rwX52iuqjge2P5edXG0ZAW8zoyQfCaDO1/6NNV+02GhmA7fAuMNu/87GAKbRXyU1xAsfvTBcF54RCK89u0BdyDwvCwFaTirY5M2HrE9XozTlJpYjJBnPhcPbNHthmkYG+jirKs0D/q2jzmlaANI9QXTPm/k/"
 
 # Name you want to give to your Database
 # DB name must contain only alphanumeric characters
-db_name: "healthdemodb"
+db_name: "astoudb"
 
 # Replace with DB username you want
 # DB user name must contain only alphanumeric characters
-db_username: "healthdemo" 
+db_username: "astou" 
 
 # Replace with Domain name you want for your web applications
 domain_name: "digit-cms.digit.org"
 
 # Replace with the name you want to give to your S3 bucket which is used to store the terraform states
-terraform_state_bucket_name: "demo-health-digit-buckets"
+terraform_state_bucket_name: "astou-digit-buckets"
 
 
