@@ -21,6 +21,6 @@ db_username: "astou"
 domain_name: "digit.obsindustrie-si.sn"
 
 # Replace with the name you want to give to your S3 bucket which is used to store the terraform states
-terraform_state_bucket_name: "astou-digit-buckets"
+terraform_state_bucket_name: "makane-digit-buckets"
 
 
